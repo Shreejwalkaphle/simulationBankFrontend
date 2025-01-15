@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class CustomerService {
 
-  private apiUrl = 'http://localhost:8080/api/customers'; // Update this with your actual API base URL
+  private apiUrl = 'https://simulationbankbackend.onrender.com/api/customers'; // Update this with your actual API base URL
 
   constructor(private http: HttpClient) { }
 
